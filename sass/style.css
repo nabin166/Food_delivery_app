@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+.bodyfont {
+  font-family: "Baloo 2", cursive;
+}
+
+.bg-nav {
+  background-color: #FFBC80;
+}
+
+.bg-login {
+  background-color: #F76E11;
+}
+
+.ancor {
+  text-decoration: none;
+  color: white;
+}
+
+.ancor:hover {
+  transition: 1s;
+  color: #f0baba;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+input:active,
+input:focus,
+input:hover {
+  box-shadow: none !important;
+}
+
+input {
+  border-radius: 7px !important;
+}
+
+@media screen and (max-width: 547px) {
+  .searchbar {
+    position: relative;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+.carasol-height {
+  height: 300px;
+}
+
+.carasol-image {
+  height: 300px;
+  object-fit: cover;
+  object-position: 10% 10%;
+  bottom: 23px;
+}
+
+.productbar {
+  text-decoration: none;
+  color: #b85e23;
+  font-weight: 700;
+}
+
+.productbar:hover,
+.productbar:active {
+  color: #F76E11;
+  text-decoration-line: overline;
+  transition: 0.3s;
+}
+
+.imagewidth1 {
+  width: 95%;
+  height: 70vh;
+}
+
+.mt-discount {
+  margin-top: 5px;
+}
+
+.discounted-color {
+  color: #FC4F4F;
+}
+
+.orderbutton {
+  box-shadow: none;
+  background-color: #F76E11;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.orderbutton:hover,
+.orderbutton:active {
+  background-color: #FC4F4F;
+}
+
+.cartitem {
+  text-decoration: none;
+  color: #F76E11;
+  border: none;
+}
+
+.cartitem:hover {
+  transition: 0.2s;
+  color: #FF9F45;
+}
+
+.bg-cart {
+  background-color: #F76E11;
+  color: white;
+}
+
+.hovercart:hover {
+  transform: translateY(-9px);
+  transition: all 0.4s ease-in-out;
+  opacity: 0.6;
+}
+
+.hovering {
+  position: relative;
+  height: 400px;
+  width: 90%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://images.pexels.com/photos/2878741/pexels-photo-2878741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-blend-mode: normal;
+  transition: 0.3s ease-in-out;
+}
+
+.hovering:hover {
+  background-color: rgba(20, 0, 0, 0.7);
+  background-blend-mode: darken;
+  background-position: 40% 45%;
+}
+
+.upward {
+  padding-top: 0px;
+}
+
+.textcoloring {
+  background-color: #b85e23;
+}
+
+.cancel {
+  color: #F76E11;
+  text-decoration-color: #F76E11;
+}
+
+.cancel:hover {
+  color: #FF9F45;
+  text-decoration-color: #FF9F45;
+}
+
+/*# sourceMappingURL=style.css.map */
